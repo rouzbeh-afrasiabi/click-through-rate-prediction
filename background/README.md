@@ -7,6 +7,6 @@ Click-through rate is an indicator that shows how lickely your advertisement wil
 ## Problem Statement
 Due to the low likelyhood of a vistor to click an advertisement the dataset utilized here is imbalanced, meaning that one group in the dataset is present with much higher number of records. The goal here is to predict as many users that are likely to click the ad as possible while reducing the number false positives. The main reason for reducing the number of false positives is due to the fact that a cost can be associated with the number of times the algorithm falsely identifies a visitor as someone who is likely to click your ad. An example of this is when you would want to provide a discount code to a targeted set of users, the more visitors are able to see the discount code the lower your bottom line will be.
 <p>
-<img src='../images/bar_imbalance.png'>
+<img src='../images/bar_imbalance.png' align='center>
 </p>
 
