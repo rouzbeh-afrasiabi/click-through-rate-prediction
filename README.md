@@ -1,5 +1,6 @@
 # click-through-rate-prediction (imbalanced dataset)
- 
+(Project ongoiong) 
+
  ## Project Overview
  
 Click-through rate is an indicator that shows how likely your advertisement will be noticed and clicked on by visitors of a website. The main aim of the current project is to predict click through rate based on a dataset containing various features related to user interaction with ads. The data has been anonymized, with the websites where the advertisement was shown and the brand it belonged to have been replaced by other values. The project has been broken down into multiple jupyter notebooks for simplycity. 
@@ -20,7 +21,7 @@ Due to the low likelyhood of a vistor to click an advertisement the dataset util
   4-Modeling_Sampling.ipynb
   5-Modeling_main.ipynb
 ```
-
+Each notebook will provide more detail regarding the methods used and the resuts.
 
 ## Modeling results 
 
