@@ -19,3 +19,5 @@ Is there a relationship between the time a user spends on the website and their 
 <p align='center'>
  <img src='../images/inteeraction_click.png'></img>
 </p>
+As can be observed from the above boxplots no clear correlation between the time a user spends on the website and their likelihood of clicking the ad exists.
+
