@@ -10,3 +10,57 @@ Due to the low likelyhood of a vistor to click an advertisement the dataset util
 <img src='../images/bar_imbalance.png' >
 </p>
 
+## Exploratory Data Analysis
+
+Here we pose three questions and will try to answer them by performing exploratory data analysis. 
+```  
+Is there a relationship between the time a user spends on the website and their likelihood of clicking the ad?
+```  
+<p align='center'>
+ <img src='../images/inteeraction_click.png'></img>
+</p>
+As can be observed from the above boxplots no clear correlation between the time a user spends on the website and their likelihood of clicking the ad exists.
+
+```  
+ Is there a pattern for the time of the day that more clicks were observed?
+```  
+<p align='center'>
+ <img src='../images/weekday_time.png'></img>
+</p>
+
+```  
+ What time of the day are visitors more likely to click the ad?
+```  
+
+<p align='center'>
+ <img src='../images/likely_clicks.png'></img>
+</p>
+
+As can be seen from the above figure a clear pattern for when more clicks are expected emerges that is very similar to the sleeping habits of human beings.
+
+```  
+ Is there a relationship between the website chosen for showing the ad and the liklihood of it being clicked?
+```  
+<p align='center'>
+ <img src='../images/website_max_clicks'></img>
+</p>
+
+The above figure shows that a higher numberr of ads were displayed on website_0 and more clicks were observed for this website. However, this just shows that there is a preference for selecting to show ads on this specific website.
+
+
+```  
+ Is there a relationship between the color of the ad and the number of clicks?
+```  
+
+<p align='center'>
+ <img src='../images/color_ad.png'></img>
+</p>
+
+Surprisingly, yes. The color pink seems to attract more attention. This can also be observed accross multiple brands.
+
+<p align='center'>
+ <img src='../images/color_brand.png'></img>
+</p>
+
+
+
