@@ -10,7 +10,7 @@ Due to the low likelyhood of a vistor to click an advertisement the dataset util
 <img src='../images/bar_imbalance.png' >
 </p>
 
-## Exploratory Data Analysis
+## Brief Exploratory Data Analysis
 
 Here we pose three questions and will try to answer them by performing exploratory data analysis. 
 ```  
@@ -63,4 +63,5 @@ Surprisingly, yes. The color pink seems to attract more attention. This can also
 </p>
 
 
-
+## Click-Through rate prediction
+To predict click-through a voting model was created by combining two separate models, namely , SGDClassifier and ExtraTreesClassifier. As can be observed from the results shown below, by combining these models the false positive rate is reduced to the lowest value.
