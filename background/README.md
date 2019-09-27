@@ -42,7 +42,7 @@ As can be seen from the above figure a clear pattern for when more clicks are ex
  Is there a relationship between the website chosen for showing the ad and the liklihood of it being clicked?
 ```  
 <p align='center'>
- <img src='../images/website_max_clicks'></img>
+ <img src='../images/website_max_clicks.png'></img>
 </p>
 
 The above figure shows that a higher numberr of ads were displayed on website_0 and more clicks were observed for this website. However, this just shows that there is a preference for selecting to show ads on this specific website.
