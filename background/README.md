@@ -22,7 +22,8 @@ Is there a relationship between the time a user spends on the website and their 
 As can be observed from the above boxplots no clear correlation between the time a user spends on the website and their likelihood of clicking the ad exists.
 
 ```  
-Where ads shown to the users on some days of the week more than other? Is there a pattern for the time of day the clicks are mostly observed?
+ Where ads shown to the users on some days of the week more than other? 
+ Is there a pattern for the time of day the clicks are mostly observed?
 ```  
 <p align='center'>
  <img src='../images/weekday_time.png'></img>
