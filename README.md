@@ -1,4 +1,4 @@
-# click-through-rate-prediction (imbalanced dataset)
+# Click-Through Rate Prediction (imbalanced dataset)
 (Project ongoiong) 
 
  ## Project Overview
