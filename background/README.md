@@ -15,6 +15,6 @@ Due to the low likelyhood of a vistor to click an advertisement the dataset util
 Here we pose three questions and will try to answer them by performing exploratory data analysis. 
   Is there a relationship between the time user spends on the website and there lickleyhood of clicking the ad?
   
-<p>
+<p align='center'>
  <img src='../images/inteeraction_click.png'></img>
 </p>
