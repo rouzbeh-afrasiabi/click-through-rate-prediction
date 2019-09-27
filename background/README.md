@@ -23,7 +23,7 @@ As can be observed from the above boxplots no clear correlation between the time
 
 ```  
  Were ads shown to the users on some days of the week more than other? 
- Is there a pattern for the time of day the clicks are mostly observed?
+ Is there a pattern for the time of the day that more clicks were observed?
 ```  
 <p align='center'>
  <img src='../images/weekday_time.png'></img>
