@@ -15,11 +15,11 @@ Due to the low likelyhood of a vistor to click an advertisement the dataset util
 ## Notebooks
  The project has been separated into multiple jupyter notebook :
  ```
-  1-EDA and FE.ipynb	
-  2-Modeling_scaling.ipynb	
-  3-Modeling_PCA.ipynb	
-  4-Modeling_Sampling.ipynb
-  5-Modeling_main.ipynb
+  1-EDA and FE
+  2-Modeling_scaling
+  3-Modeling_PCA
+  4-Modeling_Sampling
+  5-Modeling_main
 ```
 Each notebook will provide more detail regarding the methods used and the resuts.
 
