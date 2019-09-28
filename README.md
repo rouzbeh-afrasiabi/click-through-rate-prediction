@@ -26,7 +26,7 @@ Each notebook will provide more detail regarding the methods used and the resuts
 ## Modeling results 
 
 ### Using Ensemble of Models
-To predict click-through rate a VotingClassifier model was created by combining two separate models, namely , SGDClassifier and ExtraTreesClassifier. As can be observed from the results shown below, by combining these models the false positive rate is reduced to the lowest value.
+To predict click-through rate, a VotingClassifier model (ensemble) was created by combining two separate models, namely , SGDClassifier and ExtraTreesClassifier. As can be observed from the results shown below, by combining these models the false positive rate is reduced significantly.
 
 <img src='./images/ensemble.png'> </img>
 
