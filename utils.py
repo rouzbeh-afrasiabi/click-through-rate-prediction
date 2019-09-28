@@ -181,6 +181,8 @@ class experiment:
         self._modelNames=list(self.cms_dict.keys())
         self.cmap_name='hsv'
         self.figsize=(10,7)
+        self.predicted=[]
+        self.actual=[]
         
         
     def _plot_cm(self,actual,predicted,cm_count=True):
@@ -191,7 +193,8 @@ class experiment:
             annot=matrix.values
         else:
             annot=pd.DataFrame.from_dict(cm.normalized_matrix,orient='index').apply(lambda x:round(x,3)).values
-        sns.heatmap(matrix,annot=annot,ax=ax,fmt='')
+        annot_kws = {"ha": 'left',"va": 'top'}
+        sns.heatmap(matrix,annot=annot,ax=ax,fmt='',annot_kws=annot_kws)
         ax.set(xlabel='Predicted', ylabel='Actual')
         return(cm)
 
@@ -247,6 +250,8 @@ class experiment:
             self.model.fit(X,y)
             predicted=self.model.predict(X_)
             cm=ConfusionMatrix(y_.values.flatten(), predicted)
+            self.actual.append(y_.values.flatten())
+            self.predicted.append(predicted)
             cms.append(cm)
         self.cms_dict[self.model.__class__.__name__]=cms
         self.cms_list.append(cms)
