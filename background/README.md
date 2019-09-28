@@ -66,8 +66,3 @@ Surprisingly, yes. The color pink seems to attract more attention. This can also
 </p>
 
 
-## Click-Through rate prediction
-<p align='justify'>
-To predict click-through a voting model was created by combining two separate models, namely , SGDClassifier and ExtraTreesClassifier. As can be observed from the results shown below, by combining these models the false positive rate is reduced to the lowest value.
-</p>
-
