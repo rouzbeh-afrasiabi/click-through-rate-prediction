@@ -19,7 +19,8 @@ Due to the low likelihood of a visitor clicking an advertisement, the dataset ut
 ## Notebooks
  The project has been separated into multiple jupyter notebook :
  ```
-  1-EDA and FE
+  1-Exploratory data analysis and feature engineering
+   EDA and FE
   2-Modeling_scaling
   3-Modeling_PCA
   4-Modeling_Sampling
