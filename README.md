@@ -1,17 +1,39 @@
-# click-through-rate-prediction (imbalanced dataset)
- 
+# Click-Through Rate Prediction (imbalanced dataset)
+(Project ongoing) 
+
  ## Project Overview
  
-Click-through rate is an indicator that shows how likely your advertisement will be noticed and clicked on by visitors of a website. The main aim of the current project is to predict click through rate based on a dataset containing various features related to user interaction with ads. The data has been anonymized, with the websites where the advertisement was shown and the brand it belonged to have been replaced by other values. The project has been broken down into multiple jupyter notebooks for simplycity. 
+<p align='justify'>
+Click-through rate is an indicator that shows the  likelihood of an advertisement being clicked when the ad is displayed to the user. The main aim of the current project is to predict click through-rate based on a dataset containing various features related to a user's interaction with advertisements from different brands being shown on various websites. The data has been anonymized, and the values for the websites and the brands have been replaced. The project has been broken down into multiple jupyter notebooks for simplicity, with each jupyter notebook dealing with a specific part of the project. 
+</p>
 
 ## Problem Statement
-Due to the low likelyhood of a vistor to click an advertisement the dataset utilized here is imbalanced, meaning that one group in the dataset is present with much higher number of records. The goal here is to predict as many users that are likely to click the ad as possible while reducing the number false positives. The main reason for reducing the number of false positives is due to the fact that a cost can be associated with the number of times the algorithm falsely identifies a visitor as someone who is likely to click your ad. An example of this is when you would want to provide a discount code to a targeted set of users, the more visitors are able to see the discount code the lower your bottom line will be.
 
+<p align='justify'>
+Due to the low likelihood of a visitor clicking an advertisement, the dataset utilized here suffers from an imbalance between the population of records belonging to each category (click or no click), meaning that one category in the dataset has far more examples than the other one. The goal here is to predict the users that have a high likelihood of clicking the ad while at the same time minimizing the number of false positives. The main reason for reducing the number of false positives is due to the fact that a cost can be associated with the number of times the algorithm falsely identifies a visitor as someone who is likely to click an ad. An example of this is when you would want to provide a discount code to a targeted set of users, the more visitors are able to see the discount code, the lower your bottom line will be. 
+</p>
 <p align='center'> 
 <img src='./images/bar_imbalance.png'></img>
 </p>
 
-To predict click-through rate a VotingClassifier model was created by combining two separate models, namely , SGDClassifier and ExtraTreesClassifier. As can be observed from the results shown below, by combining these models the false positive rate is reduced to the lowest value.
+## Notebooks
+ The project has been separated into multiple jupyter notebook :
+ ```
+  1-Exploratory data analysis and feature engineering (1-EDA and FE.ipynb)
+  2-Data Scaling (Modeling_scaling.ipynb)
+  3-Principal Component Analysis (Modeling_PCA.ipynb)
+  4-Samlping Methods (Modeling_Sampling.ipynb)
+  5-Modeling (Modeling_main.ipynb)
+```
+Each notebook provides the details regarding the methods used and the resuts.
+
+## Modeling results 
+
+### Using Ensemble of Models
+<p align='justify'>
+To predict click-through rate, a VotingClassifier model (ensemble) was created by combining two separate models, namely , SGDClassifier and ExtraTreesClassifier. As can be observed from the results shown below, by combining these models the false positive rate is significantly reduced .
+ </p>
 
 <img src='./images/ensemble.png'> </img>
+
 
