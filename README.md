@@ -4,7 +4,7 @@
  ## Project Overview
  
 <p align='justify'>
-Click-through rate is an indicator that shows the  likelihood of an advertisement being clicked when the ad is displayed to the user. The main aim of the current project is to predict click through-rate based on a dataset containing various features related to a user's interaction with advertisements from different brands being shown on various websites. The data has been anonymized, and the values for the websites and the brands have been replaced. The project has been broken down into multiple jupyter notebooks for simplicity, with each jupyter notebook dealing with a specific part of the project. 
+Click-through rate is an indicator that shows the  likelihood of an advertisement being clicked when the ad is displayed to the user. The main aim of the current project is to predict click through-rate based on a dataset containing various features related to a user's interaction with advertisements from different brands being shown on various websites. The data has been anonymized, and the name of the the websites and the brands have been replaced. The project has been broken down into multiple jupyter notebooks for simplicity, with each jupyter notebook dealing with a specific part of the project. 
 </p>
 
 ## Problem Statement
