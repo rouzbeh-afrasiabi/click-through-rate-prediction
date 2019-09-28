@@ -19,12 +19,11 @@ Due to the low likelihood of a visitor clicking an advertisement, the dataset ut
 ## Notebooks
  The project has been separated into multiple jupyter notebook :
  ```
-  1-Exploratory data analysis and feature engineering
-   EDA and FE
-  2-Modeling_scaling
-  3-Modeling_PCA
-  4-Modeling_Sampling
-  5-Modeling_main
+  1-Exploratory data analysis and feature engineering (1-EDA and FE.ipynb)
+  2-Data Scaling (Modeling_scaling.ipynb)
+  3-Principal Component Analysis (Modeling_PCA.ipynb)
+  4-Samlping Methods (Modeling_Sampling.ipynb)
+  5-Modeling (Modeling_main.ipynb)
 ```
 Each notebook will provide more detail regarding the methods used and the resuts.
 
