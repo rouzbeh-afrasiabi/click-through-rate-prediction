@@ -25,7 +25,7 @@ Due to the low likelihood of a visitor clicking an advertisement, the dataset ut
   4-Samlping Methods (Modeling_Sampling.ipynb)
   5-Modeling (Modeling_main.ipynb)
 ```
-Each notebook will provide more detail regarding the methods used and the resuts.
+Each notebook provides the details regarding the methods used and the resuts.
 
 ## Modeling results 
 
