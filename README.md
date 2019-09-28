@@ -2,10 +2,13 @@
 (Project ongoing) 
 
  ## Project Overview
+ 
 <p align='justify'>
 Click-through rate is an indicator that shows the  likelihood of an advertisement being clicked when the ad is displayed to the user. The main aim of the current project is to predict click through-rate based on a dataset containing various features related to a user's interaction with advertisements from different brands being shown on various websites. The data has been anonymized, and the values for the websites and the brands have been replaced. The project has been broken down into multiple jupyter notebooks for simplicity, with each jupyter notebook dealing with a specific part of the project. 
 </p>
+
 ## Problem Statement
+
 <p align='justify'>
 Due to the low likelihood of a visitor clicking an advertisement, the dataset utilized here suffers from an imbalance between the population of records belonging to each category (click or no click), meaning that one category in the dataset has far more examples than the other one. The goal here is to predict the users that have a high likelihood of clicking the ad while at the same time minimizing the number of false positives. The main reason for reducing the number of false positives is due to the fact that a cost can be associated with the number of times the algorithm falsely identifies a visitor as someone who is likely to click an ad. An example of this is when you would want to provide a discount code to a targeted set of users, the more visitors are able to see the discount code, the lower your bottom line will be. 
 </p>
