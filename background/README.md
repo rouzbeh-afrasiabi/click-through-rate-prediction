@@ -41,9 +41,11 @@ As can be observed from the above boxplots no clear correlation between the time
 <p align='justify'>
 As can be seen from the above figure a clear pattern for when more clicks are expected emerges that is very similar to the sleeping habits of human beings.
 </p>
+
 ```  
  Is there a relationship between the website chosen for showing the ad and the likelihood of it being clicked?
 ```  
+
 <p align='center'>
  <img src='../images/website_max_clicks.png'></img>
 </p>
