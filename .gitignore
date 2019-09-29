@@ -1,6 +1,7 @@
 download/
 data/
 original/
+background/
 __pycache__
 .ipynb_checkpoints
 
